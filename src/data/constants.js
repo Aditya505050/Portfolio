@@ -1,26 +1,69 @@
 import HeroImg from '../images/HeroImage.jpg'
-
+import Crypto from '../images/Crypto.png'
+import Dorm from '../images/Dorm.png'
+import Fitfull from '../images/Fitfull.png'
+import Secure from '../images/Secure.png'
 
 export const Bio = {
   name: "Adity Agarwal",
   roles: [
-    "Full Stack Developer",
     "UI/UX Designer",
+    "Full Stack Developer",
     "Problem Solver",
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/thishaaarsh",
+    "I am a passionate UI/UX designer, I specialize in crafting smooth, visually appealing user experiences. My goal is to make apps so user-friendly that even non-techy individuals feel naturally at ease. Proficient in transforming ideas into intuitive interfaces, I excel in blending aesthetics with functionality for enhanced digital products.",
+  github: "https://github.com/Aditya505050",
   resume:
-    "https://drive.google.com/file/d/1u22B7L4Cre3v3h2CxKSMQsVSWH7LS4rv/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/thisharsh/",
-  twitter: "https://www.linkedin.com/in/thisharsh/",
-  insta: "https://www.instagram.com/this_haaarsh/",
-  facebook: "https://www.instagram.com/this_haaarsh/",
+    "https://drive.google.com/file/d/1CuvAYZwWzCo1mqK6oZbLPsDdLpD3c1J5/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/aditya-agrawal-390723246/",
+  twitter: "https://twitter.com/Aditya505050",
+  insta: "https://www.instagram.com/mishi_2030/",
+  facebook: "",
 };
 
 export const skills = [
+  {
+    title: "UI/UX Designer",
+    skills: [
+      {
+        name: "Adobe XD",
+        image:
+          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+      },
+      {
+        name: "Figma",
+        image:
+          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+      },
+      {
+        name: "Material UI",
+        image:
+          "data:image/png;base64,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",
+      },
+      {
+        name: "Protopie",
+        image:
+          "https://juliaricciolini.com.br/wp-content/uploads/2023/03/protopie.jpeg",
+      },
+      {
+        name: "Framer",
+        image:
+          "https://cdn.dribbble.com/users/4878/screenshots/15802274/media/0095503c7019e158ae31ed7becf5ad24.png",
+      },
+      {
+        name: "Sketch",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/1920px-Sketch_Logo.svg.png",
+      },
+      {
+        name: "Notion",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+      },
+    ],
+  },
   {
     title: "Frontend",
     skills: [
@@ -57,11 +100,6 @@ export const skills = [
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-      {
-        name: "Material UI",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAh1BMVEX///8Af/8Ad/8AfP8Aev/v+P8Adf8Ae/+Puv8Adv+72P8Ac/87k/8Agf/t9f/6/f/U5v+lyf/m8f+10//H3v/C2/9Tnf9npv/e7P+w0P9+s/9Il/+Ywf8rjP8xkP/A2f8ch//Q4/9zrf94r/+HuP+dxP8JhP9aoP/a6f9Mmv+py/+Tv/8Ab/9IeMWVAAAHEElEQVR4nO2d6XqqMBBAJUQodcG1tlqpS2tre9//+W6oWgWyTAiB4DfnNwaOZiQkk6HTQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQZCm2X5Pu3Wda/Y91zl8Mhoan3KY9AghD8btQJgeAhL5YMVtEgTRp+GXHx9Cj0EGU7N2AHz1g/RUXm8EOry76PnsaHqIjc76SrwTQQI7b1nO18vw+5Djx4SeDifvRuc9ns/KzhsszDu8kFcSXk7kRerfZLsmf9e1MTpx8ifoeSH5MWpLzOOBXE/jEVVYxX+/9q+h0alvBW2F4tcq8DwNwb/eWb0g6z79qkOxuwty55ALjtYke3i1gp7fW1R6V/ygNHcGqWA30zttCLJQjF6Nmrzl7UAK7csEx1FYOLxyQXYFhzejRi8854JPKbjjHW9BkN0VV89GzabE+3zwqQTnPd7hVgRZKO4MQzH3XwgRXBT7pzVBNkaiHwbtzjec4FMJ9rkXY0vQJBQnT4X/QhcF2eitVCjGS5meS4Kp4l47FMe+KPgcFNQPxVl+INKw4FolmIYi/ClcHnyOCrJ+eoSFYvweAZpzTzBVXAKeq79VweeuYBqKY0VL23UEa0pXMKxFkF3WeiZpZ/gpGJeZCw5qEmSjt6eJqJl3zlNARYJ0UZdgqsgPxRdg8JUR9CPht1q9IPs6ve9CE9sEGnwlBKm/NfLTFfS8KBeKw+IjeHWCoi5jU5Cd9POm0zwEGsGnKxj1zZ9K9QXT6cX38/c6HSjHZeUFqfdirFdO8DcUmeKsz52RqEawgt5pIMgukhwoKftZkeDq2mAVcyZGgiYIBZeXu001vfOXTf1+YsHJqctX1TvdE+zMCQ1pZb3TQcHO8Gex11oDbptg9aAgCrZX0De5Rco+7IYgJUk/LDPSPH14nRTXBZ0SjH4nfKHTSFnYjZp9OP4RPSa6IEjPuRvxkug+DvnBZWZjKjB0QfA60TN5gs8m/V795vpAfOR/0gHBcHdzyEyyEpYnO9H/zf+gA4I0m7umXE45k1+qeXRA8AARVC6InSiMktsjyELxqFLkLJe2SVC+KJ0GHyf3ZNoqQW5OzxlB9lDbBDvxjt9Pg/4X9/jWCfJTe8QZfC0UZH8cuanQMBDnYLZSMJvbyoJPkkXbUsFOd3EZvUXyPGhTwfnuacmPbjhlBDudUcIUfeIrZi/NBFm8hz7tmeRbdcoKsms/HhJlArSJYPfyj92TLSyrGZQUBGEgeL3n+k9G1+CmYHbUZHQNVgVfygk+Z8e9Zmkk7gnG+1w20Z0JFp8970qQN3twT4LchIY7Elxwj78fwck/7uH3Iyg4/H4EBbOMZoLcJlEQxvNKb2a7ZYLCnT13Iije2XMXgtL1DJHguDWCis0FbRdULmS0XFC9FFWrIP+7Li8I2NkjFuR/My4Jgnb2tFcwfodlkLZVEJySUatg2XnRAjPwzh5hLQsrgntuo9qCk0/45gJ/JWjEiuCQcrfTaApq7ewR1pP5sCHYeeYNqvQEtXb2UF84FW9HkHtn1hEc6ezs8SNJOrYtQc7YCi6otbNHtn/NpmDxBg0W1NrZI9+BaFUw/3wDFNTa2UND1R5Sq4Lpn/S1fQqpfTRKNHb2QPZCWBZkofi36hEAUvvn/zSCD7SP27Zgmq91mkYJ14CDBXlaPMgGtBfCvmAaigGlwQZSfwwsSAlwmb0OQfbHsVzCKnMBBf0AXJimHkEwMMFgBc8DeW2foF6dNn5BIIcFQ16KpZihYETrqqA8y4sDvw6Cs4KKLK8CbwPRoM9JQV+zSGK+/KHrgv5Ga49qV7hO46og0coRFKdKuyroJxrtyJPd3RQM4RVSLsPfdgn6R2AboA0nDgp6FDb8HMuDz2FBUB+FrNO4KugRZf1v2DqNs4Kqis/xErwr0bAMdXlUY1HZk8TYg08V11Smvoj6aUJUfF1nx6VH9QZFFQJ4HuQWX59oVGBLW2jKD/ZEHxY6mNY6TbQ2rMllAnBOJlv7Rm+dprqyOWUAz6pFyeVngJc/9G5LYzXEF7dmNI/zs73OImmuuFkzaJSDCnv9Rb/XluC7MNGJJz/UKDfAKzDYBJzC+1VQac0qQ0YlS8dJ9aSLpLVTrvifGNUiaQP86Px5KKBEtUjaBJWFIqxUchNoJVqI9Y5OBV+WqWcaijrlyhvhQbt00C00NNyLXAPDhV7poBvKvDKgCbTSLm7oVVqt0Spl7orOB18W3VA0e/FKE2gmr5m+OqcJ4APUakul1sgLKBTJ4bHpCy2PeoAaBtW9gKwJFKHYzuDLIhugRoIiUC1jKpigr+ONqjXBuyvaexFnExQGqHZfpdoE2ddt2H4ZbiNcB6hk0OhcvD1OoRhGD47OSJjDQrF3d8GXw+H5FgRBEARBEARBEARBEARBEARBEARBEARBEMZ/Z7h0SlKcxhsAAAAASUVORK5CYII=",
       },
       {
         name: "Flutter",
@@ -112,31 +150,6 @@ export const skills = [
     ],
   },
   {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },
-  {
     title: "Others",
     skills: [
       {
@@ -170,14 +183,9 @@ export const skills = [
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
       },
       {
-        name: "Adobe XD",
+        name: "Android Studio",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
     ],
   },
@@ -186,43 +194,43 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C510BAQHo-dOI8x1tOg/company-logo_200_200/0/1630622144864/grepix_infotech_logo?e=2147483647&v=beta&t=nXN4NZIRTgGZ7_imEM0pTwrNed98H39nceVILLrule0",
-    role: "Web Developer Intern",
-    company: "Grepix Infotech",
-    date: "Nov 2022 - Jan 2023",
-    desc: "During my enriching 3-month internship in web development, I honed my skills in front-end and back-end technologies, actively contributing to the creation of dynamic and responsive websites. Collaborating with a talented team, I gained hands-on experience in HTML, CSS, JavaScript, and backend frameworks. The internship not only polished my coding abilities but also provided insights into project management and the importance of teamwork in delivering successful web solutions.",
+    img: "https://cyberalliance.in/assets/img/logos/logo.300x900nobg.webp",
+    role: "UI/UX Designer Intern",
+    company: " Cyber Alliance, India",
+    date: "Sept 2022 - Nov 2023",
+    desc: "I led the development of new style guides prioritizing accessibility for diverse audiences, implemented strategies for optimal web responsiveness across devices, and managed a visual library aligned with accessibility standards. My design projects emphasized strong communication, teamwork, and a focus on accessibility and inclusivity. Collaborating with the UX Director and stakeholders, I ensured successful project completion and enhanced user experiences.",
     skills: [
+      "Figma",
+      "Adobe XD",
+      "Miro",
+      "Notion",
+      "Sprig",
+      "Avocode",
       "HTML",
       "CSS",
-      "JavaScript",
-      "React",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB",
-      "Firebase",
       "Tailwind",
     ],
-    doc: "https://github.com/thishaaarsh/Certifications/blob/main/Harsh%20-%20Intership%20Leter%20(1).pdf",
+    doc: "https://drive.google.com/drive/folders/173rhm6kZYD1fqd-Pl7z_0tzbxlSaNdWP?usp=sharing",
   },
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C510BAQHo-dOI8x1tOg/company-logo_200_200/0/1630622144864/grepix_infotech_logo?e=2147483647&v=beta&t=nXN4NZIRTgGZ7_imEM0pTwrNed98H39nceVILLrule0",
+    img: "https://www.matterize.it/imgg/Menu%20Logo.webp",
     role: "Web Developer Intern",
-    company: "Grepix Infotech",
-    date: "Nov 2022 - Jan 2023",
-    desc: "During my enriching 3-month internship in web development, I honed my skills in front-end and back-end technologies, actively contributing to the creation of dynamic and responsive websites. Collaborating with a talented team, I gained hands-on experience in HTML, CSS, JavaScript, and backend frameworks. The internship not only polished my coding abilities but also provided insights into project management and the importance of teamwork in delivering successful web solutions.",
+    company: "MATTERIZE",
+    date: "June 2023 - Aug 2023",
+    desc: "During my internship, I conducted a thorough evaluation of current branding and products, applying theoretical design principles to develop detailed style guides for enhanced visual consistency. Presenting alternative designs honed my communication skills, and creating user-centric storyboards reinforced the strategic impact of prioritizing user experience in design decisions. This experience provided valuable insights into real-world applications of design theory and its practical implications.",
     skills: [
+      "Figma",
+      "Sketch",
+      "Framer",
+      "Notion",
+      "Miro",
+      "Zeplin",
       "HTML",
       "CSS",
       "JavaScript",
-      "React",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB",
-      "Firebase",
-      "Tailwind",
     ],
-    doc: "https://github.com/thishaaarsh/Certifications/blob/main/Harsh%20-%20Intership%20Leter%20(1).pdf",
+    doc: "https://drive.google.com/drive/folders/1kUVLsXNLfVUNujj4L-hhsdZMxj7jP7iq?usp=sharing",
   },
    
 ];
@@ -233,26 +241,26 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/800px-Vellore_Institute_of_Technology_seal_2017.svg.png",
     school: "Vellore Institute of Technology, Bhopal",
     date: "Aug 2020 - Aug 2024",
-    grade: "9.17 CGPA",
-    desc: "I'm currently pursuing my Bachelor of Technology (B.Tech) degree from VIT, Bhopal maintaing a CGPA of 9.17, where my academic journey intertwines with the fascinating world of technology and innovation. Eager to delve into the realms of engineering, I am passionate about acquiring knowledge and skills that contribute to the ever-evolving landscape of technology. With a keen interest in Web Development and problem solving, I am dedicated to exploring, learning, and applying cutting-edge concepts to shape a promising future in the field of technology.",
+    grade: "8.62 CGPA",
+    desc: "I am currently pursuing my Bachelor of Technology (B.Tech) degree from VIT, Bhopal, maintaining a CGPA of 8.62. My academic journey is deeply intertwined with the captivating world of technology and innovation. I am passionately driven to explore the realms of engineering, specifically focusing on UI/UX development. My dedication to acquiring knowledge and honing skills aligns with contributing to the ever-evolving landscape of technology. With a keen interest in crafting seamless user experiences and solving design challenges, I am committed to delving into, learning, and applying cutting-edge concepts in UI/UX development. My goal is to contribute to shaping a promising future in the technology field through intuitive and user-centric design solutions.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.collegedekho.com%2Fcolleges%2Fcourses-syadwad-institute-of-higher-education-and-research&psig=AOvVaw0AGEdW1p5LBqprf1sDU1Sa&ust=1701837312023000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCL1pW894IDFQAAAAAdAAAAABAE",
-    school: "Syadwad Jain Academy",
+    img: "http://cambridgecourthighschool.org/wp-content/uploads/2022/06/logo-4.png",
+    school: "Cambridge Court High School",
     date: "May 2019",
-    grade: "95%",
-    desc: "I completed my 12th grade with distinction, securing an impressive 95% overall. Having earned the coveted position of school topper, my academic journey has been marked by a commitment to excellence and a passion for learning. I am now poised to leverage my achievements and embark on the next exciting chapter of my educational and professional endeavors..",
+    grade: "73%",
+    desc: "I completed my 12th grade with a commendable 73% overall.While not the top scorer,I've embraced my academic journey with dedication and a strong thirst for knowledge. My commitment to learning has been consistent, and I am enthusiastic about stepping into the next thrilling chapter of my educational and professional pursuits.",
     degree: "CBSE(XII)",
   },
   {
     id: 2,
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.collegedekho.com%2Fcolleges%2Fcourses-syadwad-institute-of-higher-education-and-research&psig=AOvVaw0AGEdW1p5LBqprf1sDU1Sa&ust=1701837312023000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCL1pW894IDFQAAAAAdAAAAABAE",
-    school: "Syadwad Jain Academy",
+    img: "http://cambridgecourthighschool.org/wp-content/uploads/2022/06/logo-4.png",
+    school: "Cambridge Court High School",
     date: "May 2017",
-    grade: "10CGPA",
-    desc: "I achieved a perfect 10 CGPA in my 10th grade. Honored as the school topper, my commitment to academic excellence is a driving force as I embark on new educational pursuits.",
+    grade: "8.4 CGPA",
+    desc: "Having achieved an 8.4 CGPA previously, my commitment to learning is steadfast as I stride into new educational paths.",
     degree: "CBSE(X)",
   },
 ];
@@ -260,47 +268,47 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Swadhyaya",
-    date: "Jun 2023 - Jul 2023",
+    title: "Dormvitory",
+    date: "Mar 2023 - May 2023",
     description:
-      "Developed a fully functional ed-tech platform that enables users to create and consume educational content. Provides seamless and interactive learning experience for students, making education more accessible and engaging",
+      "Designed a comprehensive full-stack application with the primary goal of addressing the challenges associated with hostel booking. The application establishes an intuitive interface catering to both students and administrators, streamlining the hostel booking process",
     image:
-      "https://private-user-images.githubusercontent.com/90460581/287937125-885d9341-4425-4749-8223-e9c9335f05e6.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTcwMjMsIm5iZiI6MTcwMTc1NjcyMywicGF0aCI6Ii85MDQ2MDU4MS8yODc5MzcxMjUtODg1ZDkzNDEtNDQyNS00NzQ5LTgyMjMtZTljOTMzNWYwNWU2LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA1VDA2MTIwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI0ZTBjZmI0OTQ1ZDJiNTRhOTg3YjNlZGY5NGIwZGI1OGViMGU4MDZhODRhOWM2NzI0YzE5NzllZGI4MWE5ODImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.glH7A-wjMA2R0gmY1d9wxUFNpngm5iPjDmW5Q-ReGo8",
-    tags: [
-      "MERN"
+     `${Dorm}`,
+     tags: [
+      "PHP","HTML","CSS","JavaScript"
     ],
     category: "web app",
-    github: "https://github.com/thishaaarsh/study_web",
+    github: "https://github.com/Aditya505050/DormVit",
     webapp: "",
   },
   {
     id: 8,
-    title: "DSA-TrackEase",
-    date: "Jun 2023 - Jul 2023",
+    title: "Cryptoverse",
+    date: "Nov 2021 - Jan 2022",
     description:
-      "Developed a DSA Tracker which is a comprehensive collection of 450 DSA popular questions designed to enhance problem-solving skills. The project focuses on providing a user-friendly interface with features to help users organize their DSA journey and track their progress",
+      "Created an innovative cryptocurrency analytics platform that leverages cutting-edge charting techniques and advanced data visualization. This platform facilitates seamless comparison and analysis of various cryptocurrency values, providing users with a user-friendly experience to gain insights into the dynamic cryptocurrency market.",
     image:
-      "https://private-user-images.githubusercontent.com/90460581/287934331-45edf17e-b47d-4cde-bf7d-eba6211357f7.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTcyMjAsIm5iZiI6MTcwMTc1NjkyMCwicGF0aCI6Ii85MDQ2MDU4MS8yODc5MzQzMzEtNDVlZGYxN2UtYjQ3ZC00Y2RlLWJmN2QtZWJhNjIxMTM1N2Y3LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA1VDA2MTUyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU2OTMwMDRlMTc2MzZjNGI1YWFmMjU5MDBhODQ5YWE2NzU0OTc3MzVlNjRlNGFhYmYxMDM1MzNkNzBiZmVkYzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.qmFX4DtgTuKWRaahAkrkfZk4cnwv6AbjBxLBKGwIwaY",
+     `${Crypto}`,
     tags: [
-      "HTML","CSS","JavaScript"
+      "MERN"
     ],
     category: "web app",
-    github: "https://github.com/thishaaarsh/DSA-TrackEase",
+    github: "https://github.com/Aditya505050/CryptoVerse",
     webapp: "",
   },
   {
     id: 6,
-    title: "SortVision",
-    date: "Jan 2023 - Mar 2023",
+    title: "FitFull",
+    date: "Jan 2021 - Mar 2021",
     description:
-      "Developed a Sorting Visualizer application to dynamically demonstrate and visualize various sorting algorithms. The project aimed to enhance understanding and visualization of sorting techniques aiding in the education and exploration of algorithmic concepts.",
+      "Fitfull is a responsive web app, committed to empowering individuals on their journey to a healthier and happier life. It is a fitness website is designed to spread awareness about the importance of fitness, offering a diverse range of courses tailored to different lifestyles and preferences.",
     image:
-      "https://private-user-images.githubusercontent.com/90460581/252446427-7f3bd08e-8546-4ed5-bafb-02c1db71dd11.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTczNzQsIm5iZiI6MTcwMTc1NzA3NCwicGF0aCI6Ii85MDQ2MDU4MS8yNTI0NDY0MjctN2YzYmQwOGUtODU0Ni00ZWQ1LWJhZmItMDJjMWRiNzFkZDExLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA1VDA2MTc1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZmY3Mzk1MTBkZDMyNjZlNWJmYjNhMThhNzBkZGRkM2FhZGY1YzBiOWU5Y2M4MDc0MzBhNGZjNGQ4ZmE1OWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.VymdbzweCqQ99a1zk2y_Cu8Fz3VgPv4lYIpMTv5rXVU",
+     `${Fitfull}`,
     tags: [
       "HTML","CSS","JavaScript"
     ],
     category: "web app",
-    github: "https://github.com/thishaaarsh/SortVision",
+    github: "https://github.com/Aditya505050/FitFull",
     webapp: "",
   },
   {
@@ -310,7 +318,7 @@ export const projects = [
     description:
       "Considering the importance of safety and security of women in India, I wanted to give it a try from my end to address the issue in a simpler and safer way. The app is about safety as well as awareness & makes the user safe & confident. It is easy to use because of it's user friendly and easy to navigate UI. I wanted to give them a tap on the shoulder to keep going and not give up! Keeping this mind I developed an application named GoSecure.",
     image:
-      "https://private-user-images.githubusercontent.com/90460581/287940483-c5f1438b-6a84-4cd9-ab7e-35ef242f1e15.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NTc1ODcsIm5iZiI6MTcwMTc1NzI4NywicGF0aCI6Ii85MDQ2MDU4MS8yODc5NDA0ODMtYzVmMTQzOGItNmE4NC00Y2Q5LWFiN2UtMzVlZjI0MmYxZTE1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjA1VDA2MjEyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTlhODc3NTE2ZDU2N2VjNjAxOTI4NDAwOGI2YTA5MjYzM2E4NGI4MGUxYmU5OTllNWM5ZjQ1YmVjNjM5NGEyMGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.XUGDdS1CEHEEndl2BqtOTcjB8AeXHkry5vxFle_mDKw",
+     `${Secure}`,
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
     category: "android app",
     github: "https://github.com/thishaaarsh/go_secure",
